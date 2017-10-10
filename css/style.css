@@ -44,6 +44,18 @@ main {
     z-index: 9999;
 }
 
+.side-nav ul li.active {
+    background-color: #008962;
+}
+
+.side-nav ul li.active .sub-menu li {
+    background-color: #2c2f34
+}
+
+.side-nav ul li.active .sub-menu li.active {
+    background-color: #008962;
+}
+
 .slide-list {
     padding: 0
 }
