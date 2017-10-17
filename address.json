@@ -1,0 +1,115 @@
+{
+  "address": [
+    {
+      "id": "1",
+      "nama": "JABATAN PENDAFTARAN PERTUBUHAN MALAYSIA",
+      "alamat": "ARAS 8 & 9, KOMPLEKS D, PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN, 62546 PUTRAJAYA",
+      "notel": "03-88905776/88895778",
+      "nofaks": "03-88893706"
+    },
+    {
+      "id": "2",
+      "nama": "JPPM KUALA LUMPUR",
+      "alamat": "ARAS 1, KOMPLEKS KEMENTERIAN DALAM NEGERI, JLN SRI HARTAMAS 1, 50480 KUALA LUMPUR",
+      "notel": "03-62012092/2093/2094",
+      "nofaks": "03-62012107"
+    },
+    {
+      "id": "3",
+      "nama": "JPPM SELANGOR",
+      "alamat": "TINGKAT 16, WISMA MBSA, PERSIARAN PERBANDARAN, 40675 SHAH ALAM, SELANGOR",
+      "notel": "03-55106427",
+      "nofaks": "03-55109281"
+    },
+    {
+      "id": "3",
+      "nama": "JPPM KEDAH",
+      "alamat": "ARAS 3, KOMPLEKS KEMENTERIAN DALAM NEGERI, PUSAT PENTADBIRAN KERAJAAN PERSEKUTUAN, BANDAR MUADZAM SHAH, 06550 ALOR SETAR, KEDAH",
+      "notel": "04-7312700",
+      "nofaks": "04-7336262"
+    },
+    {
+      "id": "4",
+      "nama": "JPPM PULAU PINANG",
+      "alamat": "ARAS 4, ZON A, WISMA PERSEKUTUAN, SEBERANG PERAI UTARA, JALAN BERTAM, 13200KEPALA BATAS, PULAU PINANG",
+      "notel": "04-5780456/0457/0458",
+      "nofaks": "04-5780450"
+    },
+    {
+      "id": "5",
+      "nama": "JPPM PERLIS",
+      "alamat": "ARAS 1, KOMPLEKS KEMENTERIAN DALAM NEGERI, PERSIARAN WAWASAN, 01000 KANGAR, PERLIS",
+      "notel": "04-9778290",
+      "nofaks": "04-9760384"
+    },
+    {
+      "id": "6",
+      "nama": "JPPM PERAK",
+      "alamat": "ARAS 4, KOMPLEKS KEMENTERIAN DALAM NEGERI, PERSIARAN MERU UTAMA, BANDAR MERU RAYA, 30020 IPOH, PERAK",
+      "notel": "05-5288445",
+      "nofaks": "05-5288793"
+    },
+    {
+      "id": "7",
+      "nama": "JPPM JOHOR",
+      "alamat": "TINGKAT 5, BLOK 1, KOMPLEKS KEMENTERIAN DALAM NEGERI, JLN PEJABAT, TMN SETIA TROPIKA, 81200 JOHOR BAHRU, JOHOR",
+      "notel": "07-2371200",
+      "nofaks": "07-2391213"
+    },
+    {
+      "id": "8",
+      "nama": "JPPM NEGERI SEMBILAN",
+      "alamat": "TINGKAT 6, BANGUNAN YAYASAN, JLN YAM TUAN, 70000 SEREMBAN, NEGERI SEMBILAN",
+      "notel": "06-76440639",
+      "nofaks": "06-7644635"
+    },
+    {
+      "id": "9",
+      "nama": "JPPM PAHANG",
+      "alamat": "TINGKAT 3, KOMPLEKS KEMENTERIAN DALAM NEGERI, BANDAR INDERA MAHKOTA, 25200 KUANTAN, PAHANG",
+      "notel": "09-573360",
+      "nofaks": "09-5734809"
+    },
+    {
+      "id": "10",
+      "nama": "JPPM TERENGGANU",
+      "alamat": "NO. 4-9, TINGKAT 1, WISMA PELADANG, JLN SULTAN MOHAMAD, 21100 KUALA TERENGGANU, TERENGGANU",
+      "notel": "09-6265885/6886",
+      "nofaks": "09-6267887"
+    },
+    {
+      "id": "11",
+      "nama": "JPPM KELANTAN",
+      "alamat": "WISMA SUKAN, JLN TELIPOT, 15150 KOTA BHARU, KELANTAN",
+      "notel": "09-7436886",
+      "nofaks": "09-7437887"
+    },
+    {
+      "id": "12",
+      "nama": "JPPM SABAH",
+      "alamat": "MENARA MAA, SUITE 5-03A, TINGKAT 5, LORONG API-API 1, 88000 KOTA KINABALU, SABAH",
+      "notel": "088-447609/610/612",
+      "nofaks": "088-447614"
+    },   {
+      "id": "13",
+      "nama": "JPPM SARAWAK",
+      "alamat": "BANGUNAN QUEEN’S COURT, BLOK E, TINGKAT 2, JLN WAN ALWI, 93350 KUCHING, SARAWAK",
+      "notel": "082-454925",
+      "nofaks": "082-462449"
+    },   {
+      "id": "14",
+      "nama": "JPPM SARAWAK (CAWANGAN MIRI)",
+      "alamat": "INGKAT 1, BLOK A, WISMA PERSEKUTUAN, FASA 2, JLN CAHAYA LOPENG, 98000 MIRI, SARAWAK",
+      "notel": "085-415087",
+      "nofaks": "085-420413"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
