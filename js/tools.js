@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
+    $('.footer-copyright date').text('16 Oktober 2017');
 
+    $("#counter").attr("src", "http://www.freehitcounters.biz/counter.php?id=rosros");
     $('body').removeClass().addClass('green-style');
 
     // WOW Initialization
@@ -35,7 +37,7 @@ $(document).ready(function () {
         var alamat = e.data('alamat');
         var tel = e.data('tel');
         var fax = e.data('fax');
-        
+
         $('#myModalJabatanTitle').html(title);
         $('#myModalJabatanAlamat').html(alamat);
         $('#myModalJabatanTel').html(tel);
@@ -48,4 +50,10 @@ $(document).ready(function () {
         $('#myModalJabatanTel').html();
         $('#myModalJabatanFax').html();
     });
+
+    // Google Analytics
+    $.googleanalytics({UA: 'UA-123456-11'});
+    $.trackPageview('index.html', 'addSlash');
+    $('a#enter-home').gaTagDownloads();
+    // End Google Analytics
 });
