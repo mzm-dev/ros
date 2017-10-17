@@ -31,6 +31,9 @@ main {
     border: 0;
     box-shadow: none;
 }
+#intro-page .card-body p {
+    font-size: 13px;
+}
 
 #intro-page .carousel-indicators {
     /*display: none;*/
@@ -224,6 +227,7 @@ main {
     height: 24px;
     margin: 5px;
 }
+
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 30px;

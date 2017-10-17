@@ -6,6 +6,7 @@
 sass/
 
 # User-specific stuff:
+*.xlsx
 .idea/
 .idea/workspace.xml
 .idea/tasks.xml
@@ -48,6 +49,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-agenda.html
-home.html
+#agenda.html
+#home.html
 index-old.html
