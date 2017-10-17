@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.footer-copyright date').text('16 Oktober 2017');
+    $('.footer-copyright date').text('26 Disember 2016');
 
     $("#counter").attr("src", "http://www.freehitcounters.biz/counter.php?id=rosros");
     $('body').removeClass().addClass('green-style');
