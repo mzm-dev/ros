@@ -50,10 +50,4 @@ $(document).ready(function () {
         $('#myModalJabatanTel').html();
         $('#myModalJabatanFax').html();
     });
-
-    // Google Analytics
-    $.googleanalytics({UA: 'UA-123456-11'});
-    $.trackPageview('index.html', 'addSlash');
-    $('a#enter-home').gaTagDownloads();
-    // End Google Analytics
 });
