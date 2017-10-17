@@ -224,6 +224,7 @@ main {
     height: 24px;
     margin: 5px;
 }
+
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 30px;
