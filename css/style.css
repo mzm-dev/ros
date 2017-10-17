@@ -31,6 +31,9 @@ main {
     border: 0;
     box-shadow: none;
 }
+#intro-page .card-body p {
+    font-size: 13px;
+}
 
 #intro-page .carousel-indicators {
     /*display: none;*/
