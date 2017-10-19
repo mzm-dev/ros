@@ -22,31 +22,43 @@
         <li>
             <div class="logo-wrapper waves-light">
                 <a href="#">
-                    <img src="img/logo/logo.png" class="img-fluid flex-center">
+                    <img src="img/logo/jppm-ndg.png" class="img-fluid flex-center">
                 </a>
             </div>
-            <p class="logo-text text-center"><brand></brand> </p>
-            <p class="logo-text text-center">Jabatan Pendaftaran Pertubuhan Malaysia<br/>Negeri Melaka</p>
+            <p class="logo-text text-center"></p>
         </li>
         <!--/. Logo -->
-        <!--Counters-->
-        <li class="text-center"><img alt="hit-counters" id="counter" border="0"></li>
-        <!--/counters-->
         <!--Social-->
         <li>
             <ul class="social">
-                <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
-                <li><a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
-                <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
-                <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+                <li>
+                    <a class="icons-sm fb-ic" target="_blank"
+                       href="https://ms-my.facebook.com/Jabatan-Pendaftaran-Pertubuhan-ROS-Melaka-210062209005964/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x black-text"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-sm fb-ic" target="_blank"
+                       href="https://www.instagram.com/jppm_kdn/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-instagram fa-stack-1x black-text"></i>
+                        </span>
+                    </a>
+                </li>
             </ul>
         </li>
         <!--/Social-->
         <!-- Side navigation links -->
         <li>
             <ul class="collapsible collapsible-accordion">
+
                 <!-- Simple link -->
-                <li><a href="home.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Laman Utama</a></li>
+                <li class="active"><a href="index.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Laman
+                    Utama</a></li>
                 <!-- Simple link -->
                 <li><a href="sejarah.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Sejarah JPPM</a>
                 </li>
@@ -57,8 +69,7 @@
                 <li><a href="syarat.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Syarat
                     Pendaftaran</a></li>
                 <!-- Simple link -->
-                <!--<li><a href="agenda.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Agenda Mesyuarat-->
-                    <!--Penubuhan</a></li>-->
+                <!--<li><a href="agenda.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Agenda Mesyuarat Penubuhan</a></li>-->
                 <!-- Simple link -->
                 <li><a href="kaedah.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Kaedah
                     Pendaftaran</a></li>
@@ -74,31 +85,33 @@
                     </div>
                 </li>
                 <!-- Simple link -->
-                <li class="active"><a href="kategori.html" class="waves-effect"><i class="fa fa-chevron-right"></i>
-                    Kategori Pertubuhan</a></li>
+                <li><a href="kategori.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Kategori Pertubuhan</a>
+                </li>
                 <!-- Simple link -->
                 <li><a href="jabatan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Alamat & Talian JPPM</a>
                 </li>
                 <!-- Simple link -->
                 <li><a href="soalan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Soalan Lazim</a></li>
+
             </ul>
         </li>
         <!-- Side navigation links -->
+
     </ul>
 </div>
 <!-- SideNav Menu -->
 <!--Main Navigation-->
 <header>
-    <nav class="navbar fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light grey lighten-5">
         <div class="float-left">
             <!-- Collapse button -->
             <button class="navbar-toggler button-collapse" type="button" data-activates="slide-out"><span
                     class="navbar-toggler-icon"></span></button>
         </div>
-        <!--              -->
         <div class="float-right">
-            <a class="navbar-brand" href="#"><strong><brand></brand></strong></a>
-            <!-- <img src="img/logo/logo.png" height="35" alt="logo"> -->
+            <!--<a class="navbar-brand" href="#"><strong><brand></brand></strong></a>-->
+            <img src="img/logo/jata.png" height="55" alt="jata">
+            <img src="img/logo/logo-ndg.png" height="55" alt="logo">
         </div>
     </nav>
 </header>
@@ -109,7 +122,7 @@
         <!--Page heading-->
         <div class="row">
             <div class="col-12">
-                <h1 class="h1-responsive text-center">Kategori pertubuhan yang berdaftar dengan JPPM</h1>
+                <h1 class="h1-responsive text-center my-4">Kategori pertubuhan yang berdaftar dengan JPPM</h1>
             </div>
         </div>
         <div class="row">
@@ -117,10 +130,9 @@
                 <!--Card-->
                 <div class="card card-cascade">
                     <!--Card image-->
-                    <div class="view gradient-card-header green-gradient">
-                        <h2 class="h2-responsive">Persatuan boleh berdaftar dengan JPPM</h2>
-                        <p>KEBAJIKAN, SOSIAL, REKREASI, KEBUDAYAAN & KESENIAN, PERDAGANGAN, IKHTISAS, KESELAMATAN,
-                            KEAGAMAAN, FAEDAH BERSAMA (KHAIRAT KEMATIAN), POLITIK</p>
+                    <div class="view gradient-card-header green-gradient px-0 py-4">
+                        <h2 class="h2-responsive m-2">Persatuan boleh berdaftar dengan JPPM</h2>
+                        <div id="categoriesList"></div>
                     </div>
                     <!--/Card image-->
                 </div>
@@ -143,12 +155,16 @@
                                     <!--Avatar-->
                                     <div class="avatar"><img src="img/logo/veterinar.png">
                                     </div>
+                                    <!--Button-->
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">JABATAN HAL EHWAL VETERAN (JHEV)</h4>
+                                        <a href="http://www.jhev.gov.my" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">JABATAN HAL EHWAL VETERAN (JHEV)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">HAL EHWAL VETERAN/BEKAS TENTERA</p>
+
                                     </div>
                                 </div>
                                 <!--/.Card-->
@@ -166,8 +182,10 @@
                                     <div class="avatar"><img src="img/logo/bheuu.png">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">BAHAGIAN HAL EHWAL UNDANG- UNDANG (BHEUU)</h4>
+                                        <a href="http://www.bheuu.gov.my" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">BAHAGIAN HAL EHWAL UNDANG- UNDANG (BHEUU)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">PENDAFTARAN YAYASAN</p>
@@ -188,8 +206,11 @@
                                     <div class="avatar"><img src="img/logo/pibg.jpg">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">PERSATUAN IBUBAPA GURU</h4>
+                                        <a href="http://semesta.edu.my/index.php/pibg/perlembagaan-persatuan-ibu-bapa-guru-pibg/"
+                                           target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">PERSATUAN IBUBAPA GURU</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">PERSATUAN IBUBAPA GURU</p>
@@ -210,8 +231,10 @@
                                     <div class="avatar"><img src="img/logo/skm.png">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">SURUHANJAYA KOPERASI MALAYSIA (SKM)</h4>
+                                        <a href="http://www.skm.gov.my" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">SURUHANJAYA KOPERASI MALAYSIA (SKM)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">PPENDAFTARAN KOPERASI</p>
@@ -232,8 +255,10 @@
                                     <div class="avatar"><img src="img/logo/jheks.png">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">JABATAN HAL EHWAL KESATUAN SEKERJA (JHEKS)</h4>
+                                        <a href="http://jheks.mohr.gov.my" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">JABATAN HAL EHWAL KESATUAN SEKERJA (JHEKS)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">PENDAFTARAN BAGI KESATUAN SEKERJA</p>
@@ -254,8 +279,10 @@
                                     <div class="avatar"><img src="img/logo/pjs.jpg">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">PESURUHJAYA SUKAN (PJS)</h4>
+                                        <a href="http://pps.kbs.gov.my/my/" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">PESURUHJAYA SUKAN (PJS)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">PENDAFTARAN KELAB/PERSATUAN BERKAITAN BELIA DAN
@@ -277,8 +304,10 @@
                                     <div class="avatar"><img src="img/logo/skm.png">
                                     </div>
                                     <div class="card-body">
-                                        <!--Name-->
-                                        <h4 class="card-title">SURUHANJAYA SYARIKAT MALAYSIA (SSM)</h4>
+                                        <a href="http://www.ssm.gov.my" target="_blank">
+                                            <!--Name-->
+                                            <h4 class="card-title">SURUHANJAYA SYARIKAT MALAYSIA (SSM)</h4>
+                                        </a>
                                         <hr>
                                         <!--Quotation-->
                                         <p class="text-capitalize">BAGI PENDAFTARAN SYARIKAT/PERNIAGAAN</p>
@@ -309,11 +338,16 @@
     <!--/.Main layout-->
 </main>
 <!--Footer-->
-<footer class="page-footer center-on-small-only">
+<footer class="page-footer center-on-small-only grey lighten-4">
+    <a id="topFunction" class="btn-floating btn-rounded btn-danger red"><i class="fa fa-chevron-up"></i></a>
     <!--Copyright-->
-    <div class="footer-copyright">
-        <div class="containter-fluid">&copy;
-            <date></date>
+    <div class="footer-copyright grey lighten-5">
+        <div class="containter-fluid black-text mt-3">
+            <p class="m-0 p-2 address"></p>
+            <p class="m-0 pb-2 visitor">Pelawat<br/>
+                <img alt="hit-counters" id="hit-counters" border="0">
+            </p>
+            <p class="m-0 copy">&copy; 2017 <span id="nama_jabatan"></span></p>
         </div>
     </div>
     <!--/.Copyright-->
@@ -330,5 +364,72 @@
 <script type="text/javascript" src="js/compiled.min.js"></script>
 <!-- Tools JavaScript -->
 <script type="text/javascript" src="js/tools.js"></script>
+<script type="text/javascript">
+    loading_categories();
+    function loading_categories() {
+        var showData = $('#categoriesList');
+        showData.html('Loading the data.');
+        $.getJSON("categories.json", function (data) {
+            var html = '';
+            var result = data.categories;
+            //console.log(result[1]);
+            $.each(result, function (i, field) {
+                //console.log(field.nama);
+                html += '<a href="#" data-index="' + i + '" data-toggle="modal" data-target="#kategoriModal" ' +
+                    'class="btn btn-elegant btn-rounded m-1">' + field.nama + '</a>';
+            });
+
+            showData.empty();
+            showData.append(html);
+
+            $('#categoriesList > a').click(function (event) {
+                var htmlSub = '';
+                var showSubData = $('#subCategoriesList');
+                showSubData.html('Loading the data.');
+
+                event.preventDefault();
+                var e = $(this);
+                var index = e.data('index');
+
+                $('#kategoriModal').on('show.bs.modal', function (e) {
+
+                    $('#myModalTitle').html('<u>' + result[index].nama + '</u>');
+                    var sub = result[index].sub;
+                    $.each(sub, function (i, field) {
+                        htmlSub += '<dt class="col-sm-3"> Sub Kategori : ' + i + '</dt>';
+                        htmlSub += '  <dd class="col-sm-9">' + field + '</dd>';
+                    });
+                    showSubData.empty();
+                    showSubData.append(htmlSub);
+                });
+            });
+
+        });
+    }
+
+</script>
+<!-- Modal -->
+<div class="modal fade" id="kategoriModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <!--Content-->
+        <div class="modal-content">
+            <!--Header-->
+            <div class="modal-header green">
+                <h4 class="modal-title w-100 text-center" id="myModalLabel">Kategori</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <!--Body-->
+            <div class="modal-body" id="modalBody">
+                <h1 id="myModalTitle" class="h1-responsive text-center"></h1>
+                <dl id="subCategoriesList" class="row"></dl>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+<!-- Modal -->
 </body>
 </html>

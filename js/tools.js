@@ -1,18 +1,26 @@
+var html_negeri = "Negeri Melaka";
+var html_jabatan = "Jabatan Pendaftaran Pertubuhan Malaysia";
+var html_alamat = "Aras 4, Blok Pentadbiran, Kompleks Kementerian Dalam Negeri, Jalan Seri Negeri,";
+html_alamat += "Hang Tuah Jaya, 75450 Ayer Keroh, Melaka<br/>";
+html_alamat += "Telefon : +60 6-232 4180, Faks : +60 6-232 1380";
+
+$("#hit-counters").attr("src", "http://www.freehitcounters.biz/counter.php?id=rosros");
+
+$('.address').html(html_alamat);
+$('.copy > span').html(html_jabatan + " " + html_negeri);
+$('.logo-text').html(html_jabatan + " <br/>" + html_negeri);
+
 $(document).ready(function () {
-
-    var brand = 'NGO\'s Digital Guide (NDG)';
-    $('.footer-copyright date').text('26 Disember 2016');
-    $('.navbar-brand brand').text(brand);
-    $('p > brand').text(brand);
-
-    $("#counter").attr("src", "http://www.freehitcounters.biz/counter.php?id=rosros");
-    $('body').removeClass().addClass('green-style');
-
     // WOW Initialization
     new WOW().init();
 
     // SideNav Initialization
     $(".button-collapse").sideNav();
+
+    // When the user clicks on the button, scroll to the top of the document
+    $('#topFunction').on('click',function () {
+        $('html, body').animate({scrollTop: '0px'}, 300);
+    });
 
     //soalanModal
     $('.list-group-faq > a').click(function (event) {

@@ -1,0 +1,105 @@
+{
+  "categories": [
+    {
+      "nama": "POLITIK",
+      "sub": {
+        "TIADA": "Menyertai melalui calon-calonnya dalam pemilihan ke Dewan Rakyat, Dewan Undangan Negeri, pihak berkuasa tempatan atau mengusahakan perlantikan atau pemilihan ke Dewan Negara"
+      }
+    },
+    {
+      "nama": "KEBAJIKAN",
+      "sub": {
+        "ORANG KURANG UPAYA (OKU)": "Mereka yang mempunyai kecacatan fizikal. Juga dikenali dengan nama kelainan upaya.",
+        "WARGA EMAS": "Orang-orang tua",
+        "KANAK-KANAK": "Anak-anak berumur 18 tahun ke bawah",
+        "PUSAT JAGAAN": "Rumah jagaan yang berdaftar secara sah dengan Jabatan Kebajikan Masyarakat",
+        "IBU TUNGGAL": "Wanita bergelar ibu yg membesarkan serta mendidik anaknya seorang diri tanpa kehadiran suami kerana perceraian, kematian",
+        "KEBAJIKAN AHLI": "Memberi bantuan kepada Ahli Persatuan sendiri",
+        "KEBAJIKAN MASYARAKAT": "Memberi bantuan kepada masyarakat"
+      }
+    },
+    {
+      "nama": "SOSIAL",
+      "sub": {
+        "PENDUDUK": "Penghuni atau pemilik rumah di sesuatu kawasan",
+        "ALUMNI": "Bekas pelajar sekolah atau institusi termasuk juga bekas atau pesara dari sesuatu perkhidmatan.(bekas polis, alumni university Malaya)",
+        "KETURUNAN": "Persatuan yang terdiri daripada mereka yang mempunyai pertalian atau hubungan kekeluargaan",
+        "PEKERJAAN": "Kerjaya sesuatu bidang/ Profession",
+        "PENDIDIKAN": "Terdiri daripada penyampaian informasi kepada golongan tertentu"
+      }
+    },
+    {
+      "nama": "REKREASI",
+      "sub": {
+        "REKREASI AM": "Aktiviti istirehat dan riadah",
+        "SENAMAN": "Aktiviti menyihatkan badan",
+        "HOBI": "Sesuatu perkara yang diminati"
+      }
+    },
+    {
+      "nama": "FAEDAH BERSAMA",
+      "sub": {
+        "KHAIRAT KEMATIAN": "Persatuan yg mengumpulkan wang (yuran) untuk kebajikan ahli-ahlinya yg meninggal dunia",
+        "UMUM": "Bantuan yg diberikan kpd fakir miskin"
+      }
+    },
+    {
+      "nama": "KEBUDAYAAN DAN KESENIAN",
+      "sub": {
+        "TARIAN/NYANYIAN/MUZIK": "Berkaitan aktiviti tarian/nyanyian/muzik umu atau sesuatu kaum",
+        "DRAMA/TEATER": "Yang terlibat dan berminat dengan lakonan drama dan teater",
+        "PERMAINAN TRADISIONAL": "Berkaitan denagn Permainan tradisi umum atau sesuatu masyarakat",
+        "SENI PERTAHANAN DIRI": "Aktiviti yang melibatkan seni pertahana diri sesuatu kaum",
+        "SENI LUKIS": "Mereka yang terlibat atau berminat dengan hasil seni lukisan",
+        "KRAFTANGAN": "Yang terlibat dengan hasil-hasil kraf tertentu",
+        "KESUSASTERAAN": "Yang terlibat atau berminat dengan sastera pelbagai kaum"
+      }
+    },
+    {
+      "nama": "PERDAGANGAN",
+      "sub": {
+        "DEWAN PERNIAGAAN": "Pertubuhan yang mengumpulkan peniaga/pedagang",
+        "INDUSTRI PEMBUATAN": "Perdagangan yang terlibat di dalam pembuatan sesuatu barangan",
+        "INDUSTRI KECIL SEDERHANA": "Perusahaan perkilangan atau syarikat yang menyediakan perkhidmatan berkaitan perkilangan dengan jualan tahunan tidak melebihi RM50 juta dan menggaji kakitangan sepenuh masa tidak melebihi 200 orang.",
+        "PERNIAGAAN KECIL DAN PENJAJA": "Perusahaan milik tunggal atau perkongsian yang jualan tahunan tidak melebihi RM300,000 dan menggaji kakitangan sepenuh masa tidak melebihi 50 orang. Penjaja bermaksud seseorang yang mendirikan gerai dan menjual atau mendedahkan untuk jualan apa-apa makanan, minuman atau barang-barang dari apa-apa jenis.",
+        "PERKHIDMATAN": "Terlibat memberikan perkhidmatan di dalam bidang tertentu"
+      }
+    },
+    {
+      "nama": "IKHTISAS",
+      "sub": {
+        "IKHTISAS AM": "Berkaitan dengan pekerjaan atau sesuatu profesion: memerlukan atau melibatkan kepandaian atau kemahiran khusus orang yang mahir dalam sesuatu bidang pakar"
+      }
+    },
+    {
+      "nama": "HAK ASASI",
+      "sub": {
+        "ALAM SEKITAR": "Pertubuhan yang memperjuangkan hak sesuatu",
+        "MANUSIA": "Pertubuhan yang memperjuangkan hak sesuatu",
+        "PENGGUNA": "Pertubuhan yang memperjuangkan hak sesuatu"
+      }
+    },
+    {
+      "nama": "KESELAMATAN",
+      "sub": {
+        "BOMBA SUKARELA": "Ahli-ahli sukarela yang membantu Pihak Bomba Contoh: PERSATUAN BOMBA SUKARELA BUKIT BINTANG, KUALA LUMPUR",
+        "PENCEGAHAN JENAYAH": "Terlibat membantu pihak berkuasa berkenaan Pencegahan Jenayah. Contoh: PERSATUAN PENCEGAHAN JENAYAH MALAYSIA"
+      }
+    },
+    {
+      "nama": "KEAGAMAAN",
+      "sub": {
+        "JAWATANKUASA PENGURUSAN": "Pengurus rumah ibadat berdaftar",
+        "PERSATUAN PENGANUT": "Ajaran atau pengikut sesuatu agama"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+

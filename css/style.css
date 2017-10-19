@@ -1,14 +1,11 @@
 /* YOUR CUSTOM STYLES */
-main {
-    margin-top: 5rem;
-}
 
 .card, .card.card-cascade .view {
     border-radius: 0;
 }
 
 #home-page main {
-    margin-top: 3.5rem;
+    margin-top: 0;
 }
 
 #intro-page main {
@@ -31,6 +28,7 @@ main {
     border: 0;
     box-shadow: none;
 }
+
 #intro-page .card-body p {
     font-size: 13px;
 }
@@ -69,7 +67,7 @@ main {
 }
 
 .side-nav .logo-wrapper img {
-    padding: 7% 90px;
+    padding: 7% 30px;
 }
 
 .navbar {
@@ -223,7 +221,8 @@ main {
 .timeline-body > p + p {
     margin-top: 5px;
 }
-.image-pdf{
+
+.image-pdf {
     height: 24px;
     margin: 5px;
 }
@@ -415,13 +414,31 @@ footer.page-footer {
     padding-top: 2px;
 }
 
-/*green-style*/
-.green-style#intro-page {
-    background-color: #008962;
+footer.page-footer .footer-copyright {
+    height: 180px;
+    line-height: 35px;
 }
 
-.green-style .navbar {
-    background-color: #008962;
+footer.page-footer .footer-copyright .copy,
+footer.page-footer .footer-copyright p.address,
+footer.page-footer .footer-copyright p.visitor,
+footer.page-footer .footer-copyright p.update {
+    line-height: 15px;
+}
+
+#topFunction {
+    position: absolute;
+    right: 20px;
+    margin: -15px;
+}
+
+/*green-style*/
+.white-style#intro-page {
+    background-color: #ffffff;
+}
+
+.white-style .navbar {
+    background-color: #ffffff;
 }
 
 .green-style footer.page-footer {
@@ -432,39 +449,7 @@ footer.page-footer {
     background-color: #008962 !important;
 }
 
-.green-style .green-gradient {
+.green-style .green-gradient, .green-gradient {
     background: -webkit-linear-gradient(50deg, #00695c, #008962);
     background: linear-gradient(40deg, #00695c, #008962);
-}
-
-/*blue-style*/
-
-.blue-style#intro-page {
-    background-color: #2980b9;
-}
-
-.blue-style .navbar {
-    background-color: #2980b9;
-}
-
-.blue-style footer.page-footer {
-    background-color: #2980b9;
-}
-
-.blue-style .bg-green {
-    background-color: #2980b9 !important;
-}
-
-.blue-style .green-gradient {
-    background: -webkit-linear-gradient(50deg, #45cafc, #2980b9);
-    background: linear-gradient(40deg, #45cafc, #2980b9);
-}
-
-/*blue-style*/
-.red-style .navbar {
-    background-color: #c0392b;
-}
-
-.red-style footer.page-footer {
-    background-color: #c0392b;
 }

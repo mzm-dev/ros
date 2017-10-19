@@ -22,34 +22,46 @@
         <li>
             <div class="logo-wrapper waves-light">
                 <a href="#">
-                    <img src="img/logo/logo.png" class="img-fluid flex-center">
+                    <img src="img/logo/jppm-ndg.png" class="img-fluid flex-center">
                 </a>
             </div>
-            <p class="logo-text text-center"><brand></brand> </p>
-            <p class="logo-text text-center">Jabatan Pendaftaran Pertubuhan Malaysia<br/>Negeri Melaka</p>
+            <p class="logo-text text-center"></p>
         </li>
         <!--/. Logo -->
-        <!--Counters-->
-        <li class="text-center"><img alt="hit-counters" id="counter" border="0"></li>
-        <!--/counters-->
         <!--Social-->
         <li>
             <ul class="social">
-                <li><a class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a></li>
-                <li><a class="icons-sm pin-ic"><i class="fa fa-pinterest"> </i></a></li>
-                <li><a class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a></li>
-                <li><a class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a></li>
+                <li>
+                    <a class="icons-sm fb-ic" target="_blank"
+                       href="https://ms-my.facebook.com/Jabatan-Pendaftaran-Pertubuhan-ROS-Melaka-210062209005964/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-facebook fa-stack-1x black-text"></i>
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a class="icons-sm fb-ic" target="_blank"
+                       href="https://www.instagram.com/jppm_kdn/">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-instagram fa-stack-1x black-text"></i>
+                        </span>
+                    </a>
+                </li>
             </ul>
         </li>
         <!--/Social-->
         <!-- Side navigation links -->
         <li>
             <ul class="collapsible collapsible-accordion">
+
                 <!-- Simple link -->
-                <li><a href="home.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Laman Utama</a></li>
+                <li class="active"><a href="index.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Laman
+                    Utama</a></li>
                 <!-- Simple link -->
-                <li class="active"><a href="sejarah.html" class="waves-effect"><i class="fa fa-chevron-right"></i>
-                    Sejarah JPPM</a></li>
+                <li><a href="sejarah.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Sejarah JPPM</a>
+                </li>
                 <!-- Simple link -->
                 <li><a href="faedah.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Faedah
                     Berpersatuan</a></li>
@@ -57,8 +69,7 @@
                 <li><a href="syarat.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Syarat
                     Pendaftaran</a></li>
                 <!-- Simple link -->
-                <!--<li><a href="agenda.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Agenda Mesyuarat-->
-                    <!--Penubuhan</a></li>-->
+                <!--<li><a href="agenda.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Agenda Mesyuarat Penubuhan</a></li>-->
                 <!-- Simple link -->
                 <li><a href="kaedah.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Kaedah
                     Pendaftaran</a></li>
@@ -81,24 +92,26 @@
                 </li>
                 <!-- Simple link -->
                 <li><a href="soalan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Soalan Lazim</a></li>
+
             </ul>
         </li>
         <!-- Side navigation links -->
+
     </ul>
 </div>
 <!-- SideNav Menu -->
 <!--Main Navigation-->
 <header>
-    <nav class="navbar fixed-top navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-light grey lighten-5">
         <div class="float-left">
             <!-- Collapse button -->
             <button class="navbar-toggler button-collapse" type="button" data-activates="slide-out"><span
                     class="navbar-toggler-icon"></span></button>
         </div>
-        <!--              -->
         <div class="float-right">
-            <a class="navbar-brand" href="#"><strong><brand></brand></strong></a>
-            <!-- <img src="img/logo/logo.png" height="35" alt="logo"> -->
+            <!--<a class="navbar-brand" href="#"><strong><brand></brand></strong></a>-->
+            <img src="img/logo/jata.png" height="55" alt="jata">
+            <img src="img/logo/logo-ndg.png" height="55" alt="logo">
         </div>
     </nav>
 </header>
@@ -109,7 +122,7 @@
         <!--Page heading-->
         <div class="row">
             <div class="col-md-12">
-                <h1 class="h1-responsive text-center">Sejarah Penubuhan
+                <h1 class="h1-responsive text-center mt-4 mb-4">Sejarah Penubuhan
                     <small class="text-muted">Jabatan Pendaftaran Pertubuhan Malaysia</small>
                 </h1>
                 <!-- Timeline -->
@@ -187,11 +200,16 @@
     <!--/.Main layout-->
 </main>
 <!--Footer-->
-<footer class="page-footer center-on-small-only">
+<footer class="page-footer center-on-small-only grey lighten-4">
+    <a id="topFunction" class="btn-floating btn-sm btn-danger red"><i class="fa fa-chevron-up"></i></a>
     <!--Copyright-->
-    <div class="footer-copyright">
-        <div class="containter-fluid">
-            <date></date>
+    <div class="footer-copyright grey lighten-5">
+        <div class="containter-fluid black-text mt-3">
+            <p class="m-0 p-2 address"></p>
+            <p class="m-0 pb-2 visitor">Pelawat<br/>
+                <img alt="hit-counters" id="hit-counters" border="0">
+            </p>
+            <p class="m-0 copy">&copy; 2017 <span id="nama_jabatan"></span></p>
         </div>
     </div>
     <!--/.Copyright-->
