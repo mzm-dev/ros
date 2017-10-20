@@ -45,7 +45,7 @@ $(document).ready(function () {
     });
 
     //soalanModal
-    $('.jabatan > a').click(function (event) {
+    $('.jabatans > a').click(function (event) {
         event.preventDefault();
         var e = $(this);
         //var index = e.data('number');
