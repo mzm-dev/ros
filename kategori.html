@@ -397,8 +397,8 @@
                     $('#myModalTitle').html('<u>' + result[index].nama + '</u>');
                     var sub = result[index].sub;
                     $.each(sub, function (i, field) {
-                        htmlSub += '<dt class="col-sm-3"> Sub Kategori : ' + i + '</dt>';
-                        htmlSub += '  <dd class="col-sm-9">' + field + '</dd>';
+                        htmlSub += '<dt class="col-12"> Sub Kategori : ' + i + '</dt>';
+                        htmlSub += '  <dd class="col-12">' + field + '</dd>';
                     });
                     showSubData.empty();
                     showSubData.append(htmlSub);

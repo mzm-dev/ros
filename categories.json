@@ -90,7 +90,7 @@
       "nama": "KEAGAMAAN",
       "sub": {
         "JAWATANKUASA PENGURUSAN": "Pengurus rumah ibadat berdaftar",
-        "PERSATUAN PENGANUT": "Ajaran atau pengikut sesuatu agama. <br/>Info : Persatuan penganut tidak boleh mentadbir rumah ibadat"
+        "PERSATUAN PENGANUT": "Ajaran atau pengikut sesuatu agama. <br/><span class='font-italic light-blue-text'>Info : Persatuan penganut tidak boleh mentadbir rumah ibadat</span>"
       }
     }
   ]
