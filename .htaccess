@@ -44,6 +44,8 @@ AddDefaultCharset utf-8
 <IfModule mod_headers.c>
     Header unset ETag
     Header always append X-Frame-Options SAMEORIGIN
+    Header always append X-Frame-Options ALLOW-FROM https://docs.google.com/
+
 </IfModule>
 
 FileETag None
