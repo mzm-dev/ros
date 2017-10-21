@@ -91,9 +91,11 @@
                 <li><a href="jabatan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Alamat & Talian JPPM</a>
                 </li>
                 <!-- Simple link -->
-                <li class="active"><a href="soalan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Soalan Lazim</a></li>
+                <li class="active"><a href="soalan.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Soalan
+                    Lazim</a></li>
                 <!-- Simple link -->
-                <li><a href="maklumbalas.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Maklum Balas</a></li>
+                <li><a href="maklumbalas.html" class="waves-effect"><i class="fa fa-chevron-right"></i> Maklum Balas</a>
+                </li>
             </ul>
         </li>
         <!-- Side navigation links -->
@@ -168,16 +170,37 @@
             var html = '';
             var result = data.faqs;
             $.each(result, function (i, field) {
-                html += '<a href="#" class="list-group-item" data-toggle="modal" data-target="#soalanModal" ' +
-                        'data-number="' + field.id + '"' +
-                        'data-title="' + field.soalan + '"' +
-                        'data-body="' + field.jawapan + '">';
+                html += '<a href="#" class="list-group-item list-group-item-action blue-text" data-toggle="modal" data-target="#soalanModal" ' +
+                    'data-number="' + i + '">';
                 html += '(' + field.id + ') ';
                 html += field.soalan + '</a>';
             });
 
             showData.empty();
             showData.append(html);
+
+            $('#soalanList > a').click(function (event) {
+                var htmlJawapan = '';
+                var showSoalanData = $('#myModalBody');
+                showSoalanData.html('Loading the data.');
+
+                event.preventDefault();
+                var e = $(this);
+                var index = e.data('number');
+
+                $('#soalanModal').on('show.bs.modal', function (e) {
+                    var data  = result[index];
+
+                    $('#myModalLabel').html("Soalan " + data.id);
+                    $('#myModalJabatanTitle').html(data.soalan);
+                    var jawapan = data.jawapan;
+                    $.each(jawapan, function (i, field) {
+                        htmlJawapan += '<p>' + field + '</p>';
+                    });
+                    showSoalanData.empty();
+                    showSoalanData.append(htmlJawapan);
+                });
+            });
 
         });
     }
@@ -195,10 +218,10 @@
                 </button>
             </div>
             <!--Body-->
-            <div class="modal-body" id="modalBody">
-                <h1 id="myModalTitle" class="h1-responsive text-center"></h1>
-                <hr/>
-                <p id="myModalBody"></p>
+            <div class="modal-body" id="modalBodyFaq">
+                <p id="myModalJabatanTitle" class="text-center"></p>
+                <br/>
+                <div id="myModalBody"></div>
             </div>
         </div>
         <!--/.Content-->

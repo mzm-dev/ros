@@ -23,7 +23,7 @@ $(document).ready(function () {
     });
 
     //soalanModal
-    $('.list-group-faq > a').click(function (event) {
+    $('.list-group-faqs > a').click(function (event) {
 
         event.preventDefault();
         var e = $(this);

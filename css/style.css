@@ -401,6 +401,10 @@
     width: 200px;
 }
 
+#soalanModal #myModalJabatanTitle {
+    font-weight: 600;
+    font-size: 18px;
+}
 #soalanModal .modal-body {
     max-height: calc(100vh - 210px);
     overflow-y: auto;
