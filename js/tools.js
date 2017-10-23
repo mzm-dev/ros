@@ -4,7 +4,7 @@ var html_alamat = "Aras 4, Blok Pentadbiran, Kompleks Kementerian Dalam Negeri, 
 html_alamat += "Hang Tuah Jaya, 75450 Ayer Keroh, Melaka<br/>";
 html_alamat += "Telefon : +60 6-232 4180, Faks : +60 6-232 1380";
 
-$("#hit-counters").attr("src", "http://www.freehitcounters.biz/counter.php?id=rosros");
+$("#hit-counters").attr("src", "http://www.freehitcounters.biz/counter.php?id=jppmmelaka");
 
 $('.address').html(html_alamat);
 $('.copy > span').html(html_jabatan + " " + html_negeri);
